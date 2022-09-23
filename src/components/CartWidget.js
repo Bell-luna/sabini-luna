@@ -1,13 +1,11 @@
-import React from 'react'
+import React from "react";
 
-const CartWidget = ({chil}) => {
+const CartWidget = ({ chil }) => {
   return (
-    <div>
-       
-        <i class="bi bi-bag-plus"></i>
-
+    <div className="cart">
+      <i class="bi bi-bag-plus"></i>
     </div>
-  )
-}
+  );
+};
 
-export default CartWidget
+export default CartWidget;

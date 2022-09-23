@@ -24,6 +24,7 @@ background:rgb(207, 199, 199) ;
 }
 nav{
   background:rgb(249, 243, 243) ;
+  display: flex;
 }
 .marca {
   display: inline-block;
@@ -31,6 +32,13 @@ nav{
    color: gray;
    padding: 20px 30px;
    text-decoration: none;
-   
+}
+
+.cart {
+  margin-left: auto;
+  padding: 10px;
+}
+.cart i {
+  font-size: 2rem;
 }
 
