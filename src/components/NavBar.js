@@ -6,15 +6,19 @@ const NavBar = () => {
   return (
     <div>
       <nav>
-        <a href="#" className="nav-enl">
+        <Link to="/home" className="nav-enl">
           Home
-        </a>
+        </Link>
         <Link to="/" className="nav-enl">
           Productos
         </Link>
         <Link to="/detail" className="nav-enl">
           Contacto
         </Link>
+        <Link to="/detail/1234" className="nav-enl">
+          detailid
+        </Link>
+
         <CartWidget />
       </nav>
     </div>
