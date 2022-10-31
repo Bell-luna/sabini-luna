@@ -4,14 +4,15 @@ import DetailId from "./components/DetailId";
 import ItemDetailContainer from "./components/ItemDetailContainer";
 import ItemListContainer from "./components/ItemListContainer";
 import Home from "./components/Home";
-
 import NavBar from "./components/NavBar";
-
+import imgs from "./assets/imgs";
 function App() {
   return (
     <Router>
       <NavBar />
-
+      <div>
+        <img src={imgs.img1} />
+      </div>
       <Routes>
         <Route index element={<ItemListContainer />} />
         <Route path="/home" element={<Home />} />
