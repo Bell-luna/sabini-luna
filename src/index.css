@@ -48,27 +48,23 @@ nav{
   text-align: center;
   color:black;
 }
-.zapato1 {
-  
-  max-width: 500px;
-  padding: 100px;
-  text-align: center;
+
+.productsContainer{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  width: 100%;
+}
+.product img {
+  width: 100px;
+}
+.product p {
+  font-size: 1rem;
+  font-weight: bold;
 }
 
-.zapato2 {
-  max-width: 500px;
-  padding: 100px;
-  text-align: center;
+.product{
+  display: flex;
+  justify-content: center;
+flex-direction: column;
+align-items: center;
 }
-
-.zapato3 {
-  max-width: 500px;
-  padding: 100px;
-  text-align: center;
-}
-.zapato4{
-  max-width: 500px;
-  padding: 100px;
-  text-align: center;
-}
-
