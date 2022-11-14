@@ -8,7 +8,6 @@ const ItemDetailContainer = () => {
 
   return (
     <div>
-      <p className="h1">Producto</p>
       <ItemDetail productId={productId} />
     </div>
   );
