@@ -5,7 +5,7 @@ const nombre = "Sabini";
 const ItemListContainer = () => {
   return (
     <div>
-      <h1 className="h1">Bienvenidos a {nombre}</h1>
+      <h1 className="title">Bienvenidos a {nombre}</h1>
 
       <ItemList />
     </div>

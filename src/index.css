@@ -44,10 +44,7 @@ nav{
   font-size: 2rem;
 }
 
-.h1 {
-  text-align: center;
-  color:black;
-}
+
 
 .productsContainer{
   display: grid;
@@ -72,4 +69,10 @@ align-items: center;
 .description { 
   font-size: 1.2rem;
   color: gray;
+}
+
+.title {
+  font-size: medium;
+text-align: center;
+color: gray;
 }
