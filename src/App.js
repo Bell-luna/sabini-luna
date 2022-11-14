@@ -4,6 +4,7 @@ import ItemDetailContainer from "./components/ItemDetailContainer";
 import ItemListContainer from "./components/ItemListContainer";
 import Home from "./components/Home";
 import NavBar from "./components/NavBar";
+import CheckOut from "./components/CheckOut";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route index element={<Home />} />
         <Route path="/productos" element={<ItemListContainer />} />
         <Route path="/productos/:productId" element={<ItemDetailContainer />} />
+        <Route path="/carrito" element={<CheckOut />} />
       </Routes>
     </Router>
   );
