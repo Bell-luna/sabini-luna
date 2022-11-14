@@ -14,9 +14,15 @@ A continuacion vas a encontrar una lista con los componentes creados :
 - Home
 - NavBar
 - DetailId
-- CartWidget
 - ItemDetailContainer
+- CartWidget
+- ItemList
 - ItemListContainer
+- Description
+- ItemQuantitySelector
+- CheckOut
+- Brief
+- AddItemButton
 
 
 
