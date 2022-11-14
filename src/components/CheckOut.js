@@ -17,10 +17,7 @@ const CheckOut = () => {
       <h1>CheckOut</h1>
       <p>Detalle de tu compra</p>
 
-      <Brief name="Zapato 1" cantidad={cantidadProducto1} />
-      <Brief name="Zapato 2" cantidad={cantidadProducto2} />
-      <Brief name="Zapato 3" cantidad={cantidadProducto3} />
-      <Brief name="Zapato 4" cantidad={cantidadProducto4} />
+      <Brief />
     </div>
   );
 };

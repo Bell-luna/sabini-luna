@@ -1,9 +1,6 @@
 import React, { useState } from "react";
 import AddItemButton from "./AddItemButton";
 
-// Cuando toco AddItemButton quiero hacer un console.log de
-// Agregar al carrito: 2
-
 const ItemQuantitySelector = ({ productId }) => {
   const [cantidad, setCantidad] = useState(0);
 
