@@ -72,7 +72,29 @@ align-items: center;
 }
 
 .title {
-  font-size: medium;
-text-align: center;
-color: gray;
+  font-style:oblique;
+  text-align: center;
+  color: rgb(60, 59, 59);
+}
+
+.caja { 
+  font-family: sans-serif; 
+  font-size: 18px; 
+  font-weight: 400; 
+  color: #ffffff; 
+  background:#d4c7cc;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 50vw;
+  
+}
+
+.home{
+  background-image: url(assets/img/inicio.jpg);
+  height: 90vh;
+}
+.home h1 {
+  color: white;
 }

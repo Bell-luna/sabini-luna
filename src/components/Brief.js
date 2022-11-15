@@ -7,11 +7,11 @@ const Brief = () => {
   const cantidadProducto4 = localStorage.getItem("4");
 
   return (
-    <div>
-      <h5>Zapato 1 = {cantidadProducto1}</h5>
-      <h5>Zapato 2 = {cantidadProducto2}</h5>
-      <h5>Zapato 3 = {cantidadProducto3}</h5>
-      <h5>Zapato 4 = {cantidadProducto4}</h5>
+    <div className="caja">
+      {cantidadProducto1 > 0 && <h4>Zapato y corbata = {cantidadProducto1}</h4>}
+      {cantidadProducto2 > 0 && <h4>Acordonados = {cantidadProducto2}</h4>}
+      {cantidadProducto3 > 0 && <h4>Zapato y cinto = {cantidadProducto3}</h4>}
+      {cantidadProducto4 > 0 && <h4>Diseños unicos = {cantidadProducto4}</h4>}
     </div>
   );
 };

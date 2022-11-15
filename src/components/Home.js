@@ -3,9 +3,8 @@ import inicio from "../assets/img/inicio.jpg";
 
 const Home = () => {
   return (
-    <div>
+    <div className="home">
       <h1 className="title">Hola estas en el home</h1>
-      <img src={inicio} />
     </div>
   );
 };

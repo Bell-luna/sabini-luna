@@ -13,9 +13,9 @@ const CheckOut = () => {
   console.log("producto 4 => cantidad:", cantidadProducto4);
 
   return (
-    <div>
+    <div className="title">
       <h1>CheckOut</h1>
-      <p>Detalle de tu compra</p>
+      <h3>Detalle de tu compra</h3>
 
       <Brief />
     </div>
