@@ -1,12 +1,12 @@
-#Proyecto final del curso de *React.Js*!
+# Proyecto final del curso de *React.Js*!
 
-##Profesor: Felix Blanco.
+## Profesor: Felix Blanco.
 
 
 
-##Mi nombre es Belen Luna.
+## Mi nombre es Belen Luna.
 
-###Cree un e-commerce que vende zapatos y accesorios.
+### Cree un e-commerce que vende zapatos y accesorios.
 
 A continuacion vas a encontrar una lista con los componentes creados :
 
@@ -14,10 +14,16 @@ A continuacion vas a encontrar una lista con los componentes creados :
 - Home
 - NavBar
 - DetailId
-- CartWidget
 - ItemDetailContainer
+- CartWidget
+- ItemList
 - ItemListContainer
+- Description
+- ItemQuantitySelector
+- CheckOut
+- Brief
+- AddItemButton
 
 
 
-##Comandos a utilizar para iniciar: nmp run star
+## Comandos a utilizar para iniciar: nmp run star
