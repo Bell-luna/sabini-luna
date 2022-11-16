@@ -8,10 +8,18 @@ const Brief = () => {
 
   return (
     <div className="caja">
-      {cantidadProducto1 > 0 && <h4>Zapato y corbata = {cantidadProducto1}</h4>}
-      {cantidadProducto2 > 0 && <h4>Acordonados = {cantidadProducto2}</h4>}
-      {cantidadProducto3 > 0 && <h4>Zapato y cinto = {cantidadProducto3}</h4>}
-      {cantidadProducto4 > 0 && <h4>Diseños unicos = {cantidadProducto4}</h4>}
+      {cantidadProducto1 > 0 && (
+        <h4>Zapato y corbata = {cantidadProducto1} unidades.</h4>
+      )}
+      {cantidadProducto2 > 0 && (
+        <h4>Acordonados = {cantidadProducto2} unidades. </h4>
+      )}
+      {cantidadProducto3 > 0 && (
+        <h4>Zapato y cinto = {cantidadProducto3} unidades.</h4>
+      )}
+      {cantidadProducto4 > 0 && (
+        <h4>Diseños unicos = {cantidadProducto4} unidades.</h4>
+      )}
     </div>
   );
 };

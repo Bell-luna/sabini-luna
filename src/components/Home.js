@@ -1,5 +1,4 @@
 import React from "react";
-import inicio from "../assets/img/inicio.jpg";
 
 const Home = () => {
   return (

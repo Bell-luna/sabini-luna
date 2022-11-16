@@ -1,6 +1,8 @@
 import React from "react";
 import Brief from "./Brief";
 
+const shoes = "Unidades";
+
 const CheckOut = () => {
   const cantidadProducto1 = localStorage.getItem("1");
   const cantidadProducto2 = localStorage.getItem("2");
@@ -15,9 +17,9 @@ const CheckOut = () => {
   return (
     <div className="title">
       <h1>CheckOut</h1>
-      <h3>Detalle de tu compra</h3>
+      <h3>Detalle de tu compra </h3>
 
-      <Brief />
+      <Brief shoes />
     </div>
   );
 };
